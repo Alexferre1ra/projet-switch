@@ -68,7 +68,7 @@ img {
 }
 ```
 
-Les couleurs du tableau périodique ne sont pas normalisées, il est donc possible de les choisir, tant que un type est stricement associé à une couleur. Voici un exemple :
+Les couleurs du tableau périodique ne sont pas normalisées, il est donc possible de les choisir, tant que un type est strictement associé à une couleur. Voici un exemple :
 
 ![](src/assets/models/colors.png)
 
