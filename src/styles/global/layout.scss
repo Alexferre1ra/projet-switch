@@ -13,7 +13,9 @@ body {
 section {
   height: 100vh;
 }
-
+.image__accueil{
+  background-color: red;
+}
 .image__accueil,
 img {
   height: 100%;
@@ -54,10 +56,6 @@ h2 {
   padding: 2rem 0 1rem 0;
 }
 
-/*.infos__modules{
-  display: flex;
-}*/
-
 .modules__h2{
   color: red;
   text-align: center;
@@ -69,16 +67,35 @@ h2 {
   align-items: center;
   padding: .625rem .625rem;
   flex-wrap: wrap;
-  gap: 10%;
+  gap: 3%;
 }
 
 .mode{
   margin: 0 0 10px 0;
-  border: 2px solid rgb(39, 38, 38);
+  border: 3px solid rgb(39, 38, 38);
+  height: fit-content;
+  width: fit-content;
 }
 
+.mode img{
+  padding-bottom: .25rem;
+  width: 100%;
+  height: 100%;
+}
 .modes__span{
   background-color:rgb(39, 38, 38) ;
   color: azure;
-  padding: 5px 5px;
+  padding: .3125rem .3125rem;
+}
+
+h3{
+  margin: .625rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.infos__mode{
+  font-size: 1.125rem;
+  padding: .625rem;
+  font-weight: 200;
 }
