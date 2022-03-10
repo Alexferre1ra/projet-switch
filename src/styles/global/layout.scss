@@ -30,7 +30,7 @@ img {
 }
 
 .experience {
-  background-color: $blackGrey;
+  background-color: rgb(39, 38, 38);
   color: azure;
   font-size: 1rem;
   padding: 1rem;
@@ -54,11 +54,17 @@ h2 {
   padding: 2rem 0 1rem 0;
 }
 
-.infos__modules{
+/*.infos__modules{
   display: flex;
-}
+}*/
 
 .modules__h2{
   color: red;
 
+}
+
+.modules{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
