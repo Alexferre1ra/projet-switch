@@ -44,7 +44,7 @@ img {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 1rem 0;
 }
 
@@ -60,11 +60,25 @@ h2 {
 
 .modules__h2{
   color: red;
-
+  text-align: center;
 }
 
 .modules{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: .625rem .625rem;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+.mode{
+  margin: 0 0 10px 0;
+  border: 2px solid rgb(39, 38, 38);
+}
+
+.modes__span{
+  background-color:rgb(39, 38, 38) ;
+  color: azure;
+  padding: 5px 5px;
 }
