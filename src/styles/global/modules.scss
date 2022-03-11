@@ -1,0 +1,44 @@
+
+.modules__h2{
+  color: red;
+  text-align: center;
+}
+
+.modules{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .625rem .625rem;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.mode{
+  margin: 0 0 10px 0;
+  border: 3px solid --blackGrey;
+  height: fit-content;
+  width: fit-content;
+}
+
+.mode img{
+  padding-bottom: .25rem;
+  width: 100%;
+  height: 100%;
+}
+.modes__span{
+  background-color:--blackGrey ;
+  color: azure;
+  padding: .3125rem .3125rem;
+}
+
+h3{
+  margin: .625rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.infos__mode{
+  font-size: 1.125rem;
+  padding: .625rem;
+  font-weight: 200;
+}
