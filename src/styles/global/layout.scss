@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: 100%;
 }
 .image__accueil{
   background-color: red;
@@ -23,7 +23,7 @@ img {
 }
 
 .titre__accueil--container {
-  bottom: 5%;
+  top: 0;
   position: absolute;
   text-align: center;
   font-size: 2.5rem;
@@ -31,7 +31,7 @@ img {
   font-weight: 800;
 }
 
-.experience {
+.div__experience {
   background-color: rgb(39, 38, 38);
   color: azure;
   font-size: 1rem;
@@ -61,7 +61,7 @@ h2 {
   text-align: center;
 }
 
-.modules{
+.div__modules{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,6 +92,8 @@ h3{
   margin: .625rem;
   font-size: 1.25rem;
   font-weight: 400;
+  padding: 0 .625rem;
+  position: relative;
 }
 
 .infos__mode{
@@ -100,9 +102,25 @@ h3{
   font-weight: 200;
 }
 
+.section__multijoueur{
+  padding: 0 .3125rem;
+}
+.image__multi{
+  min-height: 15.625rem;
+  background-size: cover;
+}
+.div__content h3::before{
+  content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 8px;
+    background: #646464;
+}
+
 @media  screen and (min-width: 48rem) {
   .modules{
-    flex-direction: row;
     flex-wrap: nowrap;
   }
   .mode{
