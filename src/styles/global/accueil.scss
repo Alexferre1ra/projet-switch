@@ -1,0 +1,26 @@
+
+.acceuil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image__accueil{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.image__accueil img{
+  width: 50%;
+  height: 50%;
+}
+.accueil__titre {
+  top: 2%;
+  position: absolute;
+  text-align: center;
+  font-size: 2.5rem;
+  color: azure;
+  font-weight: 800;
+}
+

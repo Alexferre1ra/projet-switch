@@ -1,0 +1,51 @@
+
+.consoles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e60012;
+  height: 60vw;
+  width: 100%;
+  gap: .125rem .3125rem;
+  margin-top: .3125rem;
+  padding: 0 .3125rem;
+}
+.console{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.console img{
+  height: 6.25rem;
+  width: 6.25rem;
+}
+.console span {
+  color:azure;
+  font-size: 1.125rem;
+}
+
+
+@media  screen and (min-width: 48rem) {
+
+  .consoles{
+    height: 30vw;
+    width: 100%;
+    gap: 2px 5px;
+    padding: 0 5px;
+  }
+  .console img{
+    height: 150px;
+    width: 150px;
+  }
+
+}
+
+@media  screen and (min-width: 64rem) {
+  
+  .console img{
+    height: 15.625rem;
+    width: 15.625rem;
+  }
+}

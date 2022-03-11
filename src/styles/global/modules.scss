@@ -1,0 +1,44 @@
+
+.modules__titre{
+  color: red;
+  text-align: center;
+}
+.modules{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .625rem .625rem;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+.mode{
+  margin: 0 0 10px 0;
+  border: 3px solid rgb(39, 38, 38);
+  height: fit-content;
+  width: fit-content;
+}
+.mode img{
+  padding-bottom: .25rem;
+  width: 100%;
+  height: 100%;
+}
+.modes__cadre{
+  background-color:rgb(39, 38, 38) ;
+  color: azure;
+  padding: .3125rem .3125rem;
+}
+.infos__mode{
+  font-size: 1.125rem;
+  padding: .625rem;
+  font-weight: 200;
+}
+
+@media  screen and (min-width: 48rem) {
+  .modules{
+    flex-wrap: nowrap;
+  }
+  .mode{
+    height: 25%;
+    width: 25%;
+  }
+}
