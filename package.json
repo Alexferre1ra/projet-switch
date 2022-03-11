@@ -10,6 +10,7 @@
     "abortcontroller-polyfill": "^1.7.3",
     "acorn": "^8.7.0",
     "ansi-styles": "^4.3.0",
+    "aos": "^2.3.4",
     "base-x": "^3.0.9",
     "boolbase": "^1.0.0",
     "browserslist": "^4.20.0",
