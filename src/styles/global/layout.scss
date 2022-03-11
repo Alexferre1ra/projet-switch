@@ -13,37 +13,6 @@ body {
 section {
   height: 100%;
 }
-.image__accueil{
-  background-color: red;
-}
-.image__accueil,
-img {
-  height: 100%;
-  width: 100%;
-}
-
-.titre__accueil--container {
-  top: 0;
-  position: absolute;
-  text-align: center;
-  font-size: 2.5rem;
-  color: azure;
-  font-weight: 800;
-}
-
-.div__experience {
-  background-color: rgb(39, 38, 38);
-  color: azure;
-  font-size: 1rem;
-  padding: 1rem;
-  height: 100%;
-  line-height: 1.5;
-}
-
-.exp,
-.exp__h2 {
-  text-align: center;
-}
 
 p {
   font-size: 1rem;
@@ -56,38 +25,6 @@ h2 {
   padding: 2rem 0 1rem 0;
 }
 
-.modules__h2{
-  color: red;
-  text-align: center;
-}
-
-.div__modules{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: .625rem .625rem;
-  flex-wrap: wrap;
-  gap: 3%;
-}
-
-.mode{
-  margin: 0 0 10px 0;
-  border: 3px solid rgb(39, 38, 38);
-  height: fit-content;
-  width: fit-content;
-}
-
-.mode img{
-  padding-bottom: .25rem;
-  width: 100%;
-  height: 100%;
-}
-.modes__span{
-  background-color:rgb(39, 38, 38) ;
-  color: azure;
-  padding: .3125rem .3125rem;
-}
-
 h3{
   margin: .625rem;
   font-size: 1.25rem;
@@ -96,20 +33,82 @@ h3{
   position: relative;
 }
 
+.image__accueil{
+  background-color: red;
+}
+.image__accueil,
+img {
+  height: 100%;
+  width: 100%;
+}
+.accueil__titre {
+  top: 0;
+  position: absolute;
+  text-align: center;
+  font-size: 2.5rem;
+  color: azure;
+  font-weight: 800;
+}
+
+
+
+.experience {
+  background-color: rgb(39, 38, 38);
+  color: azure;
+  font-size: 1rem;
+  padding: 1rem;
+  height: 100%;
+  line-height: 1.5;
+}
+.exp,
+.exp__titre {
+  text-align: center;
+}
+
+
+.modules__titre{
+  color: red;
+  text-align: center;
+}
+.modules{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .625rem .625rem;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+.mode{
+  margin: 0 0 10px 0;
+  border: 3px solid rgb(39, 38, 38);
+  height: fit-content;
+  width: fit-content;
+}
+.mode img{
+  padding-bottom: .25rem;
+  width: 100%;
+  height: 100%;
+}
+.modes__cadre{
+  background-color:rgb(39, 38, 38) ;
+  color: azure;
+  padding: .3125rem .3125rem;
+}
 .infos__mode{
   font-size: 1.125rem;
   padding: .625rem;
   font-weight: 200;
 }
 
-.section__multijoueur{
+
+.multijoueur{
   padding: 0 .3125rem;
 }
 .image__multi{
   min-height: 15.625rem;
   background-size: cover;
 }
-.div__content h3::before{
+.content h3::before{
   content: " ";
     position: absolute;
     left: 0;
@@ -118,6 +117,7 @@ h3{
     width: 8px;
     background: #646464;
 }
+
 
 @media  screen and (min-width: 48rem) {
   .modules{
