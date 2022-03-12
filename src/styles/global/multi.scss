@@ -1,58 +1,55 @@
-
-.multijoueur{
+.multijoueur {
   padding: 0 0.3125rem;
 }
-.multijoueur img{
+.multijoueur img {
   min-height: 15.625rem;
   background-size: cover;
 }
-.content__multi{
+.content__multi {
   padding: 0 1.25rem;
 }
-.content__multi h2{
+.content__multi h2 {
   font-size: 1.75rem;
   font-weight: 700;
   padding-top: 0.625rem;
 }
-.content__multi h3{
- font-size: 1.571rem;
- font-weight: 500;
+.content__multi h3 {
+  font-size: 1.571rem;
+  font-weight: 500;
 }
 .content__multi p {
   font-size: 1.125rem;
   font-weight: 300;
 }
-.content__multi h3::before{
+.content__multi h3::before {
   content: " ";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 90%;
-    width: .5rem;
-    background: #646464;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 0.5rem;
+  background: #646464;
 }
 
-.multi__sousTitre{
+.multi__sousTitre {
   opacity: 0;
-  transform: translateX(110%);
+  transform: translateX(30px);
 }
 
-@media  screen and (min-width: 48rem) {
-
-  .multijoueur{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (min-width: 48rem) {
+  .multijoueur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .multijoueur img{
+  .multijoueur img {
     width: 50%;
     height: 100vw;
   }
 }
 
-@media  screen and (min-width: 64rem) {
-
-  .multijoueur img{
+@media screen and (min-width: 64rem) {
+  .multijoueur img {
     width: 50%;
     height: inherit;
   }
@@ -65,6 +62,6 @@
 }
 
 .titre__transition {
-    opacity: 1;
-    transform: none;
+  opacity: 1;
+  transform: none;
 }
