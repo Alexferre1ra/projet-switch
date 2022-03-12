@@ -14,8 +14,7 @@
 .mode{
   margin: 0 0 10px 0;
   border: 3px solid rgb(39, 38, 38);
-  height: fit-content;
-  width: fit-content;
+  
 }
 .mode img{
   padding-bottom: .25rem;
@@ -38,7 +37,7 @@
     flex-wrap: nowrap;
   }
   .mode{
-    height: 25%;
     width: 25%;
+    height: 34rem;
   }
 }
