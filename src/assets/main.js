@@ -14,4 +14,4 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 
-observer.observe(document.querySelector('.square-wrapper'));
+observer.observe(document.querySelector('.sousTitre__wrapper'));
