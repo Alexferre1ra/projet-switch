@@ -32,6 +32,11 @@
     background: #646464;
 }
 
+.multi__sousTitre{
+  opacity: 0;
+  transform: translateX(110%);
+}
+
 @media  screen and (min-width: 48rem) {
 
   .multijoueur{
@@ -51,4 +56,15 @@
     width: 50%;
     height: inherit;
   }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .multi__sousTitre {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.titre-transition {
+    opacity: 1;
+    transform: none;
 }
